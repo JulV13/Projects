@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(108, 107, 107);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator{
+    background-color: rgb(27, 27, 27);
+    border: 4px solid #12c370;
+    border-radius: 15px;
+    max-width: 300px;
+    overflow: hidden;
+}
+#wynik{
+    padding: 25px;
+    width: 100%;
+    font-size: 30px;
+    text-align: left;
+    border: none;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+.keys{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.button-number{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    font-size: 30px;
+    background-color: rgb(40, 40, 40);
+    cursor: pointer;
+    color: white;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+.button-number:hover{
+    background-color: rgb(66, 66, 66);
+}
+.button-number:active{
+    background-color: rgb(161, 161, 161);
+}
+.button-action{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    font-size: 30px;
+    background-color: #0ef98b;
+    cursor: pointer;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+.button-action:hover{
+    background-color: #00ad5c;
+}
+.button-action:active{
+    background-color: #ccfee7;
+}
