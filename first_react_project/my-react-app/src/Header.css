@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    place-items: center;
+    min-width: 99vw;
+    max-height: 15vh;
+    border: 2px solid white;
+}
+
+h1{
+    margin-left: 5vh;
+}
+
+nav{
+    border: 2px solid white;
+}
+
+li{
+    font-size: 50px;
+    border: 2px solid white;
+    display: inline;
+    margin: 30px;
+}

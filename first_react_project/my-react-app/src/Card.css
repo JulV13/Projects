@@ -1,0 +1,31 @@
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    color: white;
+    background-color: rgb(33, 33, 33);
+    border: 2px solid rgb(38, 231, 137);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgb(38, 231, 137);
+    padding: 15px;
+    max-width: 250px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card:hover{
+    transition: 1s;
+    transform: translateX(2px);
+    background-color: rgb(50, 50, 50);
+}
+
+.card .pfp{
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid rgb(38, 231, 137);
+}

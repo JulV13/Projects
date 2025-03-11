@@ -1,0 +1,6 @@
+footer{
+    display: flex;
+    justify-content: center;
+    min-width: 99vh;
+    border: 2px solid white;
+}
